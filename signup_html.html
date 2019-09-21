@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Course - Sign Up</title>
+  </head>
+  <body>
+    <h1>Course Sign Up Page</h1>
+    <p>Please Note: First Name, Last Name, Password, and Email are required</p>
+    <form action="thankyou.html" method="get">
+
+      <!-- First Name -->
+      <label for="firstname">First Name:</label>
+      <input id="firstname" type="text" name="f_name" placeholder="First Name" required>
+
+      <!-- Last Name -->
+      <label for="lastname">Last Name:</label>
+      <input id="lastname" type="text" name="l_name" placeholder="Last Name" required>
+
+      <!-- EMAIL ID -->
+      <p></p>
+      <label for="email">Email:</label>
+      <input id="email" type="email" name="e_mail" placeholder="name@email.com" required>
+
+      <!-- Password -->
+      <label for="password">Password:</label>
+      <input id="password" type="password" name="pass_code" required>
+
+      <!-- Are you over 18 years of age? -->
+      <p>Are you over the age of 18?</p>
+      <label for="adultyes">Yes</label>
+      <input id="adultyes" type="radio" name="adult" value="adult_yes">
+
+      <label for="adultno">No</label>
+      <input id="adultno" type="radio" name="adult" value="adult_no">
+
+      <!-- Do you have a Credit Card or PayPal? -->
+      <p>Do you have a Credit Card or PayPal?</p>
+      <select name="payment">
+        <option value="creditcard">Credit Card</option>
+        <option value="paypal">PayPal</option>
+      </select>
+
+      <!-- Submit button -->
+      <p></p>
+      <input type="submit" value="Submit Feedback">
+
+
+    </form>
+
+  </body>
+</html>
